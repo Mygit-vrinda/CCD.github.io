@@ -99,11 +99,6 @@ body {
       background-attachment: fixed;
     }
 }
-@media (max-width: 480px) {
-    .Banner1 {
-        background-image: url(images/background-mobile.jpg);
-    }
-}
 .ChatBot{
     position: fixed;
     bottom: -360px;
@@ -113,9 +108,4 @@ body {
     z-index: 3001;
     max-width: 300px;
     border: none;
-}
-@media (max-width: 480px) {
-    .header-info{
-        display: none;
-    }
 }
